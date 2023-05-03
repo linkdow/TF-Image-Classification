@@ -20,6 +20,7 @@ pip install matplotlib
 ```
 ####  Not necessary but useful to have.
 [Visual Studio Code] to open and edit the notebooks.
+
 To clone the repository :
 ```bash
 conda install git
@@ -37,7 +38,8 @@ cd TF-Image-Classification
 ## Usage
 #### Training
 Before being able to train on your own dataset you need to do a few things.
-- In order to load the dataset, the code uses the function ```tf.keras.utils.image_dataset_from_directory()``` if you want to use the code as is you need to ensure that your dataset follow this directory structure : (images names are not relevant)
+- In order to load the dataset, the code uses the function ```tf.keras.utils.image_dataset_from_directory()``` if you want to use the code as is you need to ensure that your dataset follow this directory structure :
+(images names are not relevant)
 	```
 	main_directory/
 	...class_a/
