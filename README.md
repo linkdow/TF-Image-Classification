@@ -17,6 +17,7 @@ Anything above 2.10 is not supported on the GPU on Windows Native. Also, there i
 ```bash
 pip install numpy
 pip install matplotlib
+pip install scikit-learn
 ```
 ####  Not necessary but useful to have.
 [Visual Studio Code] to open and edit the notebooks.
